@@ -1,0 +1,133 @@
+<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		body {
+			font-family: 'Georgia', serif;
+			background-color: #f8f8f8;
+			display: flex;
+			flex-direction: column;
+		}
+
+		body > * {
+			flex: 1;
+		}
+        
+        header {
+
+            background-color: #0077b6;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 72px;
+            margin: 0;
+			text-decoration: underline;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 48px;
+            color: #0077ba;
+            margin: 0 auto;
+			
+        }
+		h3 {
+            font-size: 36px;
+            color: #0077b6;
+            margin: 0;
+			
+        }
+		h4 {
+            font-size: 24px;
+            color: #0077b6;
+            margin: 0;
+			
+        }
+		h5 {
+            font-size: 20px;
+            color: #0077a0;
+            margin: 0;
+			
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+			margin: 10px 0;
+        }
+		aside {
+		  width: 40%;
+		  flex 1;
+		  padding-left: 0.5rem;
+		  margin-left: 0.5rem;
+		  float: right;
+		  box-shadow: inset 5px 0 5px -5px #29627e;
+		  font-style: italic;
+		  color: #29627e;
+		}
+
+		aside > p {
+		  margin: 0.5rem;
+		}
+
+      
+        nav {
+            background-color: #0077b6;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+		
+		nav li.active a {
+			background-color: #F077b6; /* Fill color */
+			color: #ffffff;
+			border-radius: 20px; /* Create a rounded bubble effect */
+			padding: 5px 15px; /* Adjust padding as needed */
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+		.custom-link{
+			color: #f8f8f8;
+		}
+
+        footer {
+            background-color: #0077b6;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+	
